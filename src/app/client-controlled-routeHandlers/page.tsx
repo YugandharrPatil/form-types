@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-export default function ReactRouteHandlersPage() {
+export default function ClientControlledRouteHandlersPage() {
 	const [task, setTask] = useState("");
 	const [day, setDay] = useState("");
 

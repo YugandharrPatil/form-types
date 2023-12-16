@@ -2,7 +2,7 @@
 
 import { FormEvent } from "react";
 
-export default function ClientRouteHandlersPage() {
+export default function ClientUncontrolledRouteHandlersPage() {
 	const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 

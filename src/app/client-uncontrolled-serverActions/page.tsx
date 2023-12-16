@@ -14,7 +14,7 @@ const handleSubmit = async (e: any) => {
 	await addEntry(formDataObject);
 };
 
-export default function ReactServerActionsPage() {
+export default function ClientUncontrolledServerActionsPage() {
 	return (
 		<form action={handleSubmit}>
 			<label htmlFor="task">Task</label>

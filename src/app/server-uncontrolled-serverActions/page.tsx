@@ -23,7 +23,7 @@ const handleSubmit = async (data: FormData) => {
 	}
 };
 
-export default function NextServerActionsPage() {
+export default function ServerUncontrolledServerActionsPage() {
 	return (
 		<form action={handleSubmit}>
 			<label htmlFor="task">Task</label>
